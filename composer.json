@@ -1,0 +1,16 @@
+{
+    "name": "nattaponra/laravel-shop",
+    "authors": [
+        {
+            "name": "Nattapon Rakthong",
+            "email": "nattapon.rakthong@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"nattaponra\\LaravelShop\\": "src/"},
+        "classmap":[
+            "src/database/migrations"
+        ]
+    }
+}
